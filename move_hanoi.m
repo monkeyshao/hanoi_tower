@@ -1,4 +1,6 @@
 function move_hanoi(n,k1,k3,v)
+% make cartoon by input the sacale of hanoi tower, move start form k1 bar to k3 bar, volatility of v
+
 clf;
 if nargin < 2
     k1=1;
