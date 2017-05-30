@@ -1,4 +1,5 @@
 function [method,remain]=hanoi(n,k1,k3)
+% generate the move method for a cerain scale hanoi tower
 if n==1
     method=[n,k1,k3];
     %set the initial 
